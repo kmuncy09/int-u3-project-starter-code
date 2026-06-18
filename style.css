@@ -19,8 +19,8 @@ body {
 
 /* Style the body with a background color or image if desired */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Papyrus, sans-serif;
+    background-color:rgb(239, 217, 190);
     text-align: center;
     padding: 20px;
 }
@@ -34,11 +34,11 @@ body {
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(250, 227, 199);
+    border: 1px solid rgb(243, 219, 190);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgb(243, 219, 190);
 }
 
 /* Style the story image */
@@ -57,6 +57,12 @@ body {
 /* Style the buttons container */
 .buttons {
     margin: 20px;
+    align-items: center;
+}
+
+#stlButtons {
+    margin: 20px;
+    align-items: center;
 }
 
 /* Style the option buttons */
@@ -64,8 +70,8 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,27 +79,45 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ebebeb;
 }
 
 /* Style the screens for option one and option two */
 .option-one-screen,
 .option-two-screen,
-.option-one-end,
-.option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
+.option-three-screen,
+.option-four-screen,
+.option-five-screen,
+.option-six-screen,
+.option-seven-screen,
+.option-eight-screen,
+.option-nine-screen,
+.option-ten-screen,
+.option-eleven-screen,
+.option-twelve-screen,
+.heading-home-screen {
+    background-color: rgb(250, 227, 199);
+    border: 1px solid rgb(243, 219, 190);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgb(243, 219, 190);
     margin-bottom: 10px;
 }
 
 /* Style the images in the screens */
 .option-one-screen img,
 .option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+.option-three-screen img,
+.option-four-screen img,
+.option-five-screen img,
+.option-six-screen img,
+.option-seven-screen img,
+.option-eight-screen img,
+.option-nine-screen img,
+.option-ten-screen img,
+.option-eleven-screen img,
+.option-twelve-screen img,
+.heading-home-screen img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -102,8 +126,46 @@ button:hover {
 /* Style the text in the screens */
 .option-one-screen h1,
 .option-two-screen h1,
-.option-one-end h1,
-.option-two-end h1 {
+.option-three-screen h1,
+.option-four-screen h1,
+.option-five-screen h1,
+.option-six-screen h1,
+.option-seven-screen h1,
+.option-eight-screen h1,
+.option-nine-screen h1,
+.option-ten-screen h1,
+.option-eleven-screen h1,
+.option-twelve-screen h1,
+.heading-home-screen h1 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+.option-one-screen,
+.option-two-screen,
+.option-three-screen,
+.option-four-screen,
+.option-five-screen ,
+.option-six-screen ,
+.option-seven-screen,
+.option-eight-screen,
+.option-nine-screen,
+.option-ten-screen,
+.option-eleven-screen,
+.option-twelve-screen,
+.heading-home-screen {
+    display:none;
+}
+
+.option3,
+.option4,
+.option5,
+.option6,
+.option7,
+.option8,
+.option9,
+.option10,
+.option11,
+.option12,
+.option15 {
+    display:none;
 }
