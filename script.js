@@ -25,7 +25,7 @@ let buttonOption9=document.querySelector(".option9");
 let buttonOption10=document.querySelector(".option10");
 let buttonOption11=document.querySelector(".option11");
 let buttonOption12=document.querySelector(".option12");
-let buttonHeadingHome=document.querySelector(".option15");
+let buttonHeadingHome=document.querySelector(".heading-home");
 let buttonStartOver=document.querySelector(".start-again");
 
 // When you're ready to make event handlers, uncomment the code below. 
@@ -45,61 +45,41 @@ buttonOption2.addEventListener('click',function(){
 buttonOption3.addEventListener('click',function(){
     option3.style.display='block';
     buttonOption7.style.display='inline';
-    buttonOption8.style.display='inline';
     buttonOption4.style.display='none';
 });
 buttonOption4.addEventListener('click',function(){
     option4.style.display='block';
     buttonOption8.style.display='inline';
-    buttonOption9.style.display='inline';
     buttonOption3.style.display='none';
 });
 buttonOption5.addEventListener('click',function(){
     option5.style.display='block';
-    buttonOption10.style.display='inline';
-    buttonOption11.style.display='inline';
+    buttonOption9.style.display='inline';
     buttonOption6.style.display='none';
 });
 buttonOption6.addEventListener('click',function(){
     option6.style.display='block';
     buttonOption10.style.display='inline';
-    buttonOption12.style.display='inline';
     buttonOption5.style.display='none';
 });
 buttonOption7.addEventListener('click',function(){
     option7.style.display='block';
     buttonHeadingHome.style.display='inline';
-    buttonOption6.style.display='none';
 });
 buttonOption8.addEventListener('click',function(){
     option8.style.display='block';
     buttonHeadingHome.style.display='inline';
-    buttonOption9.style.display='none';
 });
 buttonOption9.addEventListener('click',function(){
     option9.style.display='block';
     buttonHeadingHome.style.display='inline';
-    buttonOption8.style.display='none';
 });
 buttonOption10.addEventListener('click',function(){
     option10.style.display='block';
     buttonHeadingHome.style.display='inline';
-    buttonOption11.style.display='none';
-    buttonOption12.style.display='none';
-});
-buttonOption11.addEventListener('click',function(){
-    option11.style.display='block';
-    buttonHeadingHome.style.display='inline';
-    buttonOption10.style.display='none';
-});
-buttonOption12.addEventListener('click',function(){
-    option12.style.display='block';
-    buttonHeadingHome.style.display='inline';
-    buttonOption10.style.display='none';
 });
 buttonHeadingHome.addEventListener('click',function(){
     headingHome.style.display='block';
-
 });
 buttonStartOver.addEventListener('click',function(){
     option1.style.display='none';
@@ -112,8 +92,6 @@ buttonStartOver.addEventListener('click',function(){
     option8.style.display='none';
     option9.style.display='none';
     option10.style.display='none';
-    option11.style.display='none';
-    option12.style.display='none';
     headingHome.style.display='none';
     buttonOption3.style.display='none';
     buttonOption4.style.display='none';
@@ -123,8 +101,6 @@ buttonStartOver.addEventListener('click',function(){
     buttonOption8.style.display='none';
     buttonOption9.style.display='none';
     buttonOption10.style.display='none';
-    buttonOption11.style.display='none';
-    buttonOption12.style.display='none';
     buttonHeadingHome.style.display='none';
     buttonOption1.style.display='inline';
     buttonOption2.style.display='inline';
