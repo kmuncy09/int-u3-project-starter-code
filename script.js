@@ -93,27 +93,14 @@ buttonStartOver.addEventListener('click',function(){
     option9.style.display='none';
     option10.style.display='none';
     headingHome.style.display='none';
-    buttonOption3.style.display='none';
-    buttonOption4.style.display='none';
-    buttonOption5.style.display='none';
-    buttonOption6.style.display='none';
-    buttonOption7.style.display='none';
-    buttonOption8.style.display='none';
-    buttonOption9.style.display='none';
-    buttonOption10.style.display='none';
-    buttonHeadingHome.style.display='none';
+    buttonOption3.style.display='inline';
+    buttonOption4.style.display='inline';
+    buttonOption5.style.display='inline';
+    buttonOption6.style.display='inline';
+    buttonOption7.style.display='inline';
+    buttonOption8.style.display='inline';
+    buttonOption9.style.display='inline';
+    buttonOption10.style.display='inline';
     buttonOption1.style.display='inline';
     buttonOption2.style.display='inline';
 });
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
-
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
