@@ -25,7 +25,10 @@ let buttonOption9=document.querySelector(".option9");
 let buttonOption10=document.querySelector(".option10");
 let buttonOption11=document.querySelector(".option11");
 let buttonOption12=document.querySelector(".option12");
-let buttonHeadingHome=document.querySelector(".heading-home");
+let buttonHeadingHome7=document.querySelector(".heading-home-7");
+let buttonHeadingHome8=document.querySelector(".heading-home-8");
+let buttonHeadingHome9=document.querySelector(".heading-home-9");
+let buttonHeadingHome10=document.querySelector(".heading-home-10");
 let buttonStartOver=document.querySelector(".start-again");
 
 // When you're ready to make event handlers, uncomment the code below. 
@@ -64,21 +67,30 @@ buttonOption6.addEventListener('click',function(){
 });
 buttonOption7.addEventListener('click',function(){
     option7.style.display='block';
-    buttonHeadingHome.style.display='inline';
+    buttonHeadingHome7.style.display='inline';
 });
 buttonOption8.addEventListener('click',function(){
     option8.style.display='block';
-    buttonHeadingHome.style.display='inline';
+    buttonHeadingHome8.style.display='inline';
 });
 buttonOption9.addEventListener('click',function(){
     option9.style.display='block';
-    buttonHeadingHome.style.display='inline';
+    buttonHeadingHome9.style.display='inline';
 });
 buttonOption10.addEventListener('click',function(){
     option10.style.display='block';
-    buttonHeadingHome.style.display='inline';
+    buttonHeadingHome10.style.display='inline';
 });
-buttonHeadingHome.addEventListener('click',function(){
+buttonHeadingHome7.addEventListener('click',function(){
+    headingHome.style.display='block';
+});
+buttonHeadingHome8.addEventListener('click',function(){
+    headingHome.style.display='block';
+});
+buttonHeadingHome9.addEventListener('click',function(){
+    headingHome.style.display='block';
+});
+buttonHeadingHome10.addEventListener('click',function(){
     headingHome.style.display='block';
 });
 buttonStartOver.addEventListener('click',function(){

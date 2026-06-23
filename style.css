@@ -1,15 +1,5 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
-.option-one-screen, 
-.option-two-screen, 
-.option-one-end, 
-.option-two-end  {
-   display:none;
-}
-*/
-
-
 /* Feel free to change any of the styling below!*/
 html,
 body {
@@ -92,8 +82,28 @@ button:hover {
 .option-six-screen,
 .option-seven-screen,
 .option-eight-screen,
-.option-nine-screen,
-.option-ten-screen
+.option-nine-screen {
+    background-color: #F2D08D;
+    border: 1px solid #166F64;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #166F64;
+    margin-bottom: 10px;
+    display: none;
+    color:#166F64;
+}
+
+.option-ten-screen {
+    background-color: #F2D08D;
+    border: 1px solid #166F64;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #166F64;
+    margin-bottom: 10px;
+    display: none;
+    color:#166F64;
+}
+
 .heading-home-screen {
     background-color: #F2D08D;
     border: 1px solid #166F64;
@@ -114,15 +124,23 @@ button:hover {
 .option-six-screen img,
 .option-seven-screen img,
 .option-eight-screen img,
-.option-nine-screen img,
-.option-ten-screen img,
-.option-eleven-screen img,
-.option-twelve-screen img,
+.option-nine-screen img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5 px solid #166F64;
+}
+.option-ten-screen img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5 px solid #166F64;
+}
 .heading-home-screen img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border: 2 px solid #166F64;
+    border: 5 px solid #166F64;
 }
 
 /* Style the text in the screens */
@@ -134,10 +152,14 @@ button:hover {
 .option-six-screen h1,
 .option-seven-screen h1,
 .option-eight-screen h1,
-.option-nine-screen h1,
-.option-ten-screen h1,
-.option-eleven-screen h1,
-.option-twelve-screen h1,
+.option-nine-screen h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.option-ten-screen h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 .heading-home-screen h1 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -148,12 +170,22 @@ button:hover {
 .option6,
 .option7,
 .option8,
-.option9,
-.option10,
-.heading-home7,
-.heading-home8,
-.heading-home9,
-.heading-home10 {
+.option9 {
+    display:none;
+}
+.option10 {
+    display:none;
+}
+.heading-home-7 {
+    display:none;
+}
+.heading-home-8 {
+    display:none;
+}
+.heading-home-9 {
+    display:none;
+}
+.heading-home-10 {
     display:none;
 }
 .option-one-screen,
@@ -164,8 +196,12 @@ button:hover {
 .option-six-screen,
 .option-seven-screen,
 .option-eight-screen,
-.option-nine-screen,
-.option-ten-screen,
+.option-nine-screen {
+    display:none
+}
+.option-ten-screen {
+    display:none
+}
 .heading-home-screen {
     display:none
 }
