@@ -12,6 +12,11 @@ let option10=document.querySelector(".option-ten-screen");
 let option11=document.querySelector(".option-eleven-screen");
 let option12=document.querySelector(".option-twelve-screen");
 let headingHome=document.querySelector(".heading-home-screen");
+let name=document.querySelector(".name");
+let passenger1=document.querySelector(".passenger-1");
+let passenger2=document.querySelector(".passenger-2");
+let passenger3=document.querySelector(".passenger-3");
+let start=document.querySelector(".start");
 
 let buttonOption1=document.querySelector(".option1");
 let buttonOption2=document.querySelector(".option2");
@@ -30,6 +35,7 @@ let buttonHeadingHome8=document.querySelector(".heading-home-8");
 let buttonHeadingHome9=document.querySelector(".heading-home-9");
 let buttonHeadingHome10=document.querySelector(".heading-home-10");
 let buttonStartOver=document.querySelector(".start-again");
+let buttonSubmit=document.querySelector(".submit");
 
 // When you're ready to make event handlers, uncomment the code below. 
 //  - Then fill in the blanks with the correct variables.
