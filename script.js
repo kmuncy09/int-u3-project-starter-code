@@ -12,11 +12,12 @@ let option10=document.querySelector(".option-ten-screen");
 let option11=document.querySelector(".option-eleven-screen");
 let option12=document.querySelector(".option-twelve-screen");
 let headingHome=document.querySelector(".heading-home-screen");
-let name=document.querySelector(".name");
-let passenger1=document.querySelector(".passenger-1");
-let passenger2=document.querySelector(".passenger-2");
-let passenger3=document.querySelector(".passenger-3");
+let nameInput=document.querySelector(".name");
+let passenger1Input=document.querySelector(".passenger-1");
+let passenger2Input=document.querySelector(".passenger-2");
+let passenger3Input=document.querySelector(".passenger-3");
 let start=document.querySelector(".start");
+let storyOpening=document.querySelector(".story-opening");
 
 let buttonOption1=document.querySelector(".option1");
 let buttonOption2=document.querySelector(".option2");
@@ -37,8 +38,27 @@ let buttonHeadingHome10=document.querySelector(".heading-home-10");
 let buttonStartOver=document.querySelector(".start-again");
 let buttonSubmit=document.querySelector(".submit");
 
+
 // When you're ready to make event handlers, uncomment the code below. 
 //  - Then fill in the blanks with the correct variables.
+buttonSubmit.addEventListener ('click', function() {
+    storyOpening.style.display='block';
+    buttonOption1.style.display='inline';
+    buttonOption2.style.display='inline';
+    start.style.display='none';
+    let name=nameInput.value;
+    let passenger1=passenger1Input.value;
+    let passenger2=passenger2Input.value;
+    let passenger3=passenger3Input.value;
+    const names=document.querySelectorAll(".name");
+    name.forEach((you) => you.textContent=name);
+    const passenger1s=document.querySelectorAll(".passenger-1");
+    name.forEach((one) => one.textContent=passenger1);
+    const passenger2s=document.querySelectorAll(".passenger-2");
+    name.forEach((two) => two.textContent=passenger2);
+    const passenger3s=document.querySelectorAll(".passenger-3");
+    name.forEach((three) => three.textContent=passenger3);
+});
 buttonOption1.addEventListener('click',function(){
     option1.style.display='block';
     buttonOption3.style.display='inline';
@@ -100,6 +120,7 @@ buttonHeadingHome10.addEventListener('click',function(){
     headingHome.style.display='block';
 });
 buttonStartOver.addEventListener('click',function(){
+    storyOpening.style.display='none';
     option1.style.display='none';
     option2.style.display='none';
     option3.style.display='none';
@@ -121,4 +142,5 @@ buttonStartOver.addEventListener('click',function(){
     buttonOption10.style.display='inline';
     buttonOption1.style.display='inline';
     buttonOption2.style.display='inline';
+    start.style.display='block'
 });

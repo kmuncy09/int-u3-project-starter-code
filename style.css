@@ -74,6 +74,15 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
+.start {
+    background-color: #F2D08D;
+    border: 1px solid #166F64;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #166F64;
+    margin-bottom: 10px;
+    color:#166F64;
+}
 .option-one-screen,
 .option-two-screen,
 .option-three-screen,
@@ -144,6 +153,10 @@ button:hover {
 }
 
 /* Style the text in the screens */
+.start h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 .option-one-screen h1,
 .option-two-screen h1,
 .option-three-screen h1,
@@ -163,6 +176,10 @@ button:hover {
 .heading-home-screen h1 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+.option-1,
+.option-2 {
+    display:none;
 }
 .option3,
 .option4,
@@ -197,11 +214,14 @@ button:hover {
 .option-seven-screen,
 .option-eight-screen,
 .option-nine-screen {
-    display:none
+    display:none;
 }
 .option-ten-screen {
-    display:none
+    display:none;
 }
 .heading-home-screen {
-    display:none
+    display:none;
+}
+.story-opening {
+    display: none;
 }
