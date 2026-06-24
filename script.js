@@ -36,7 +36,7 @@ let buttonHeadingHome8=document.querySelector(".heading-home-8");
 let buttonHeadingHome9=document.querySelector(".heading-home-9");
 let buttonHeadingHome10=document.querySelector(".heading-home-10");
 let buttonStartOver=document.querySelector(".start-again");
-let buttonSubmit=document.querySelector(".submit");
+let buttonSubmit=document.querySelector(".Submit");
 
 
 // When you're ready to make event handlers, uncomment the code below. 
@@ -51,13 +51,13 @@ buttonSubmit.addEventListener ('click', function() {
     let passenger2=passenger2Input.value;
     let passenger3=passenger3Input.value;
     const names=document.querySelectorAll(".name");
-    name.forEach((you) => you.textContent=name);
+    names.forEach((you) => you.textContent=name);
     const passenger1s=document.querySelectorAll(".passenger-1");
-    name.forEach((one) => one.textContent=passenger1);
+    passenger1s.forEach((one) => one.textContent=passenger1);
     const passenger2s=document.querySelectorAll(".passenger-2");
-    name.forEach((two) => two.textContent=passenger2);
+    passenger2s.forEach((two) => two.textContent=passenger2);
     const passenger3s=document.querySelectorAll(".passenger-3");
-    name.forEach((three) => three.textContent=passenger3);
+    passenger3s.forEach((three) => three.textContent=passenger3);
 });
 buttonOption1.addEventListener('click',function(){
     option1.style.display='block';

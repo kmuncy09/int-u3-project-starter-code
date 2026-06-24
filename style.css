@@ -153,10 +153,6 @@ button:hover {
 }
 
 /* Style the text in the screens */
-.start h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
 .option-one-screen h1,
 .option-two-screen h1,
 .option-three-screen h1,
@@ -224,4 +220,16 @@ button:hover {
 }
 .story-opening {
     display: none;
+}
+.name {
+    display:inline;
+}
+.passenger-1 {
+    display:inline;
+}
+.passenger-2 {
+    display:inline;
+}
+.passenger-3 {
+    display: inline;
 }
