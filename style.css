@@ -41,7 +41,7 @@ body {
 
 /* Style the story opening message */
 .story-opening h1 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     color:#166F64;
 }
@@ -50,11 +50,12 @@ body {
 .buttons {
     margin: 20px;
     align-items: center;
+    font-size: 25px;
 }
 
 /* Style the option buttons */
 button {
-    font-size: 16px;
+    font-size: 25px;
     padding: 10px 20px;
     margin: 10px;
     color: #F2D08D;
@@ -223,17 +224,17 @@ button:hover {
 }
 .name {
     display:inline;
-    font-size: 20px;
+    font-size: 25px;
 }
 .passenger-1 {
     display:inline;
-    font-size: 20px;
+    font-size: 25px;
 }
 .passenger-2 {
     display:inline;
-    font-size: 20px;
+    font-size: 25px;
 }
 .passenger-3 {
     display: inline;
-    font-size: 20px;
+    font-size: 25px;
 }
