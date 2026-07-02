@@ -223,13 +223,17 @@ button:hover {
 }
 .name {
     display:inline;
+    font-size: 20px;
 }
 .passenger-1 {
     display:inline;
+    font-size: 20px;
 }
 .passenger-2 {
     display:inline;
+    font-size: 20px;
 }
 .passenger-3 {
     display: inline;
+    font-size: 20px;
 }
